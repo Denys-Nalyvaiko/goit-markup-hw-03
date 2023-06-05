@@ -373,7 +373,6 @@ a {
   background-color: var(--portfolio-btn-background);
   padding: 12px 24px;
   border: 1px solid var(--btn-border);
-  border-top: none;
 }
 
 .portfolio-navigation-btn:hover,
@@ -396,6 +395,7 @@ a {
 .portfolio-items-text {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-subtitle {
