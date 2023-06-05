@@ -100,13 +100,13 @@ a {
 /* -------------------HEADER------------------- */
 
 .header {
-  padding: 24px 0;
+  /* padding: 24px 0; */
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -130,6 +130,10 @@ a {
   color: var(--footer-text-color);
 }
 
+.header-logo {
+  padding: 24px 0;
+}
+
 .header-navigation {
   display: flex;
   align-items: center;
@@ -148,6 +152,7 @@ a {
   line-height: 1.5; /* 24/16 */
   letter-spacing: 0.02em;
   color: var(--menu-primary-color);
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -368,6 +373,7 @@ a {
   background-color: var(--portfolio-btn-background);
   padding: 12px 24px;
   border: 1px solid var(--btn-border);
+  border-top: none;
 }
 
 .portfolio-navigation-btn:hover,
