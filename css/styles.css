@@ -137,8 +137,6 @@ a {
 .header-navigation {
   display: flex;
   align-items: center;
-  flex-grow: 1;
-  justify-content: space-between;
 }
 
 .header-menu {
@@ -179,6 +177,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--address-color);
   padding: 24px 0;
+  margin-left: auto;
 }
 
 .address-link:hover,
@@ -199,7 +198,6 @@ a {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   max-width: 496px;
-  display: flex;
   margin: auto;
   margin-bottom: 48px;
 }
